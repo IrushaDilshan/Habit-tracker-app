@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions for notifications and boot handling -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" tools:targetApi="31" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewMad">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.OnboardingActivity" android:exported="true" />
+        <activity android:name=".Onboarding1Activity" android:exported="true" />
+        <activity android:name=".Onboarding2Activity" android:exported="true" />
+        <activity android:name=".Onboarding3Activity" android:exported="true" />
+        <activity android:name=".LoginActivity" android:exported="true" />
+        <activity android:name=".SignInActivity" android:exported="true" />
+        <activity android:name=".HomeActivity" android:exported="true" />
+        <activity android:name=".MainActivity" android:exported="true" />
+        <activity android:name=".MoodJournalActivity" android:exported="true" />
+        <activity android:name=".CalendarActivity" android:exported="true" />
+        <activity android:name=".ChartsActivity" android:exported="true" />
+        <activity android:name=".SettingsActivity" android:exported="true" />
+        <activity android:name=".AddHabitActivity" android:exported="false" />
+        <activity android:name=".HydrationActivity" android:exported="false" />
+        <receiver android:name=".HydrationReminderReceiver" android:exported="false" />
+
+        <!-- Receiver to restore reminders after device reboot -->
+        <receiver android:name=".BootReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

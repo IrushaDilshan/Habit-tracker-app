@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create an account</string>
+
+    <!-- Sign up strings -->
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_subtitle">Create your account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account? Login</string>
+
+    <!-- Calendar / Mood strings (added to fix resource linking errors) -->
+    <string name="mood_calendar_title">Mood Calendar</string>
+    <string name="month_display">%1$s %2$d</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="weekly_mood_trends">Weekly Mood Trends</string>
+    <string name="cd_trends_action">View Trends</string>
+    <string name="trends_desc">See how your mood changes over the week.</string>
+
+    <!-- Mood journal strings -->
+    <string name="mood_journal_title">Mood Journal</string>
+    <string name="mood_journal_date_placeholder">Select a date</string>
+    <string name="mood_feeling_prompt">How are you feeling today?</string>
+    <string name="mood_quick_entry_cd">Quick Entry</string>
+
+    <!-- Onboarding strings -->
+    <string name="onboarding1_title">FOCUS YOUR GOALS</string>
+    <string name="onboarding1_subtitle">Define what matters. Clear the clutter.</string>
+    <string name="onboarding1_image_desc">Illustration representing focusing your goals</string>
+    <string name="next">Next</string>
+    <string name="onboarding3_image_desc">Illustration showing app features</string>
+
+    <!-- onboarding3 strings (missing) -->
+    <string name="onboarding3_title">Get insights into your mood</string>
+    <string name="onboarding3_subtitle">Daily tracking helps you understand patterns over time.</string>
+    <string name="onboarding3_start">Get Started</string>
+
+    <!-- Home screen strings -->
+    <string name="home_date_example">Tuesday, Oct 7</string>
+    <string name="home_greeting_text">Good start! Every step counts!</string>
+    <string name="home_completed_label">Completed</string>
+    <string name="home_remaining_label">Remaining</string>
+    <string name="home_total_label">Total</string>
+    <string name="home_progress_text">40%
+Complete</string>
+    <string name="home_completed_value">2</string>
+    <string name="home_remaining_value">3</string>
+    <string name="home_total_value">5</string>
+
+    <!-- Hydration strings -->
+    <string name="hydration_icon_desc">Water drop icon</string>
+    <string name="hydration_title">Drink water</string>
+    <string name="hydration_subtitle">Stay hydrated throughout the day</string>
+    <string name="hydration_interval_label">Remind every</string>
+    <string name="add_habit">Add Habit</string>
+
+    <!-- Hydration extended strings (sanitized) -->
+    <string name="hydration_tracker_title">Hydration Tracker</string>
+    <string name="hydration_daily_goal_label">Daily Goal: %1$d ml</string>
+    <string name="hydration_daily_goal_label_initial">Daily Goal: 0 ml</string>
+    <string name="hydration_progress_amount">%1$d / %2$d ml</string>
+    <string name="hydration_progress_percent">%1$d%%</string>
+    <string name="hydration_log_one_glass">+1 Glass (200 ml)</string>
+    <string name="hydration_log_two_glass">+2 Glasses (400 ml)</string>
+    <string name="hydration_log_custom">Custom</string>
+    <string name="hydration_set_target">Set Target</string>
+    <string name="hydration_reset_today">Reset Today</string>
+    <string name="hydration_enable_reminders">Enable Hydration Reminders</string>
+    <string name="hydration_interval">Interval:</string>
+    <string name="hydration_dialog_log_title">Log Custom Amount</string>
+    <string name="hydration_dialog_set_title">Set Daily Target</string>
+    <string name="hydration_dialog_add">Add</string>
+    <string name="hydration_dialog_save">Save</string>
+    <string name="hydration_invalid_amount">Invalid amount</string>
+    <string name="hydration_invalid_target">Invalid target</string>
+    <string name="hydration_permission_required">Notification permission required</string>
+    <string name="hydration_reminders_enabled">Hydration reminders enabled</string>
+    <string name="hydration_reminders_disabled">Hydration reminders disabled</string>
+    <string name="hydration_interval_set">Interval set</string>
+    <string name="hydration_notification_title">Hydration Reminder</string>
+    <string name="hydration_notification_text">Time to drink some water - stay hydrated!</string>
+    <string name="hydration_action_log_glass">Log 1 Glass</string>
+
+    <!-- Update hydration strings: add initial display variants -->
+    <string name="hydration_progress_percent_initial">0%</string>
+    <string name="hydration_progress_amount_initial">0 / 0 ml</string>
+    <string name="hydration_dialog_hint_ml">Enter ml</string>
+    <string name="hydration_dialog_hint_target">Target ml</string>
+    <string name="hydration_dialog_cancel">Cancel</string>
+
+    <!-- Action labels -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <!-- Habit item strings -->
+    <string name="habit_points_plus">+6</string>
+
+    <!-- Bottom navigation labels -->
+    <string name="nav_habits">Habits</string>
+    <string name="nav_mood">Mood</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_charts">Charts</string>
+    <string name="nav_settings">Settings</string>
+    <string name="hydration_progress_compact">%1$d/%2$d ml</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:padding="6dp">
+
+    <!-- Background capsule for selected day -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/day_bg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:strokeWidth="0dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="#6A8AFF" />
+
+    <!-- Day number -->
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#111"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- small mood emoji / dot on top-right -->
+    <TextView
+        android:id="@+id/tv_mood"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="6dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <!-- Optional mood image overlay (if we map emoji to image) -->
+    <ImageView
+        android:id="@+id/iv_mood"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="6dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/mood_calendar_title"
+        android:visibility="gone" />
+
+</FrameLayout>
